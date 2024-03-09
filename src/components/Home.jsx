@@ -10,10 +10,10 @@ import {
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import img1 from '../assets/np5.jpg';
-import img2 from '../assets/np1.jpg';
-import img3 from '../assets/np2.jpg';
-import img4 from '../assets/np4.jpg';
+import img1 from '../assets/1.jpg';
+import img2 from '../assets/2.jpg';
+import img3 from '../assets/3 (1).jpg';
+import img4 from '../assets/4 (1).jpg';
 import img5 from '../assets/5.png';
 import img6 from '../assets/np3.jpg';
 
@@ -101,35 +101,36 @@ const MyCarousel = () => (
     showStatus={false}
     showArrows={false}
     showThumbs={false}
+
   >
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={'75vh'}>
       <Img src={img1} />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
         Watch The Future
       </Heading>
     </Box>
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={'75vh'}>
       <Image src={img2} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
         New Way Of Learning
       </Heading>
     </Box>
 
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={'75vh'}>
       <Image src={img3} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
         Easy Learning
       </Heading>
     </Box>
 
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={'75vh'}>
       <Image src={img4} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
         Futuristic Vision
       </Heading>
     </Box>
 
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={'75vh'}>
       <Image src={img6} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
         Let's Welcome New Ways
