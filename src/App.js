@@ -7,6 +7,7 @@ import Videos from './components/Videos';
 import Upload from './components/Upload';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Testing from './components/Testing';
 
 function App() {
   return <Router>
@@ -17,6 +18,7 @@ function App() {
       <Route path='/upload' element={<Upload/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
+      <Route path='/testing' element={<Testing/>}/>
     </Routes>
     <Footer/>
   </Router>
